@@ -8,10 +8,7 @@
 #done '
 
 
-i=1
-
-while [ $i -le 36000000000000000000000000 ]
+while :
 do
-  echo Number: $i
-  ((i++))
+	echo "infinite loops [ hit CTRL+C to stop]"
 done
