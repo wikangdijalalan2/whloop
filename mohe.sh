@@ -8,9 +8,9 @@
 #done '
 
 
-i=360000000000000000
+i=1
 
-while [ $i -le 2 ]
+while [ $i -le 36000000000000000000000000 ]
 do
   echo Number: $i
   ((i++))
