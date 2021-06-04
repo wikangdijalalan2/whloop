@@ -11,4 +11,5 @@
 while :
 do
 	echo "infinite loops [ hit CTRL+C to stop]"
+	sleep 20
 done
